@@ -1,0 +1,21 @@
+thresholds:
+  failed_logins: 5
+  port_scan_ports: 15
+  connection_rate: 100
+  scan_window_seconds: 60
+
+ban:
+  duration_minutes: 60
+
+alerts:
+  discord_webhook: ""
+  alert_on_block: true
+  alert_on_unblock: false
+
+logging:
+  level: INFO
+  path: logs/incidents.jsonl
+
+whitelist:
+  - "127.0.0.1"
+  - "::1"

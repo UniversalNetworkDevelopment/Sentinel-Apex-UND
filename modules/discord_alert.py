@@ -3,7 +3,6 @@ Discord webhook alerter for Sentinel-Apex.
 Sends threat notifications with embed formatting.
 """
 
-import os
 import logging
 import requests
 from datetime import datetime, timezone

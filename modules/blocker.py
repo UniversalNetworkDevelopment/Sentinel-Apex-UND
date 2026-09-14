@@ -4,7 +4,6 @@ Requires administrator privileges.
 """
 
 import subprocess
-import time
 import logging
 from threading import Timer
 
